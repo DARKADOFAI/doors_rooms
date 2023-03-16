@@ -10,7 +10,7 @@ if game.PlaceId ~= 6839171747 or game.ReplicatedStorage.GameData.Floor.Value ~= 
  
 	return
 elseif workspace:FindFirstChild("PathFindPartsFolder") then
-	game.StarterGui:SetCore("SendNotification", { Title = "Warning"; Text = "If you are having issues and the bot is broken, please contact me! geodude#2619" })
+	game.StarterGui:SetCore("SendNotification", { Title = "Warning"; Text = "If you are having issues and the bot is broken, please contact me! DARKADOFAI#8995" })
  
 	local Sound = Instance.new("Sound")
 	Sound.Parent = game.SoundService
@@ -112,7 +112,7 @@ LatestRoom:GetPropertyChangedSignal("Value"):Connect(function()
         Sound.PlayOnRemove = true
         Sound:Destroy()
  
-        game.StarterGui:SetCore("SendNotification", { Title = "youtube.com/geoduude"; Text = "Thank you for using my script!" })
+        game.StarterGui:SetCore("SendNotification", { Title = "youtube.com/DARKADOFAI"; Text = "Thank you for using my script!" })
         return
     end
 end)
